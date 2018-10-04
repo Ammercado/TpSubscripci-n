@@ -1,0 +1,101 @@
+
+.App {
+  text-align: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 10s linear;
+  height: 80px;
+}
+.App-header {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhgB8U-ewHzXDCOCK_-HQ3UKi2bwu9iLMFzxAIyjB-FjsAUqasxQ");
+  background-size: 100%;
+  background-repeat: no-repeat, repeat;
+  height: 160px;
+  padding: 25px;
+  color: white;
+}
+.App-title {
+  font-size: 1.7em;
+  animation: move linear 2000ms infinite;
+  text-transform: uppercase; 
+}
+.App-text {
+  font-size: 1.2em;
+}
+.App-intro {
+  font-size: large;
+}
+@keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 hsla(309, 100%, 50%, 1),
+      3px -3px 0 hsla(309, 100%, 50%, 1),
+      2px -2px 0 hsla(309, 100%, 50%, 1), 
+      1px -1px 0 hsla(309, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1),
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  25%{
+        text-shadow:
+      4px -4px 0 hsla(309, 100%, 50%, 1),
+      3px -3px 0 hsla(309, 100%, 50%, 1),
+      2px -2px 0 hsla(309, 100%, 50%, 1), 
+      1px -1px 0 hsla(309, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1),
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  50% {
+    text-shadow:
+      4px -4px 0 hsla(309, 100%, 50%, 1),
+      3px -3px 0 hsla(309, 100%, 50%, 1),
+      2px -2px 0 hsla(309, 100%, 50%, 1), 
+      1px -1px 0 hsla(309, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1),
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  75% {
+    text-shadow:
+      4px -4px 0 hsla(309, 100%, 50%, 1),
+      3px -3px 0 hsla(309, 100%, 50%, 1),
+      2px -2px 0 hsla(309, 100%, 50%, 1), 
+      1px -1px 0 hsla(309, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1),
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 hsla(309, 100%, 50%, 1),
+      3px -3px 0 hsla(309, 100%, 50%, 1),
+      2px -2px 0 hsla(309, 100%, 50%, 1), 
+      1px -1px 0 hsla(309, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1),
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }  
+}
+@keyframes App-logo-spin {
+  0%,
+  100% {
+    transform: scale(1.25);
+    opacity: 0;
+  }
+  48%,
+  52% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
