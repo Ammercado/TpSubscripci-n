@@ -103,8 +103,9 @@ class Registro extends React.Component {
   }
   comprobar(){
     let verificar = false;
-  
+     var regex = /[A-Za-z]+\s+[A-Za-z]/; 
     if((this.state.nombre.length > 0) &&
+       (regex.test(this.state.nombre)) &&
      (this.state.email.length > 0 ) &&
      (this.state.pais.length > 0)){
        verificar = true;
